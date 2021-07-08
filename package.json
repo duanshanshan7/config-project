@@ -51,6 +51,11 @@
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.2"
   },
+  "husky":{
+    "hooks":{
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,jsx,ts,tsx,js,css,md}": "prettier --write"
