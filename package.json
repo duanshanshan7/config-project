@@ -52,10 +52,10 @@
   },
   "husky":{
     "hooks":{
-      "pre-commit":"lint-stage"
+      "pre-commit":"lint-staged"
     }
   },
-  "lint-stage":{
+  "lint-staged":{
     "*.{js,jsx,ts,tsx}": ["prettier --write", "git add"]
   }
 }
