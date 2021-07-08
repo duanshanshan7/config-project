@@ -52,11 +52,7 @@
     "prettier": "^2.3.2"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "prettier --write",
-      "git add"
-    ],
     "*.js": "eslint --cache --fix",
-    "*.{js,css,md}": "prettier --write"
+    "*.{js,jsx,ts,tsx,js,css,md}": "prettier --write"
   }
 }
