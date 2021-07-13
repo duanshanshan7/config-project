@@ -1,0 +1,1 @@
+export const UPDATE_CARD_INFO = "UPDATE_CARD_INFO";
