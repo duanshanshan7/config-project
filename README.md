@@ -65,8 +65,14 @@ commit-msg
 
 # json-server
 
+1. 全局安装 json-server, npm install json-server -g
+2. 项目根目录下新建 db.json
+3. json-server db.json -w 启动 server 服务
+
 # typeing/index.d.ts
 
 # process.env 配置
 
 # axios 封装
+
+# redux

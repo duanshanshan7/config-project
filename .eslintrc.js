@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
+    amd: true,
   },
   extends: [
     "eslint:recommended",
@@ -19,5 +20,8 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react", "@typescript-eslint"],
-  rules: {},
+  rules: {
+    "no-console": "warn",
+    semi: [1, "always"],
+  },
 };
