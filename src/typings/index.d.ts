@@ -9,9 +9,9 @@ declare interface IReduxAction {
 }
 
 declare interface ICardInfo {
-  cardNumber: number;
-  cardType: string;
-  cardAmount: number;
+  cardNumber?: number;
+  cardType?: string;
+  cardAmount?: number;
 }
 declare interface IReduxState {
   cardInfo: ICardInfo;
